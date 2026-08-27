@@ -36,3 +36,4 @@
 - [pnpm](https://pnpm.io/)
 - [electron-builder](https://www.electron.build/)
 - [Vitest](https://vitest.dev/)
+- [GitHub Actions](https://github.com/features/actions)

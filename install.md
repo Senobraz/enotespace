@@ -1,6 +1,6 @@
 # Installation
 
-Latest release: [Releases](https://github.com/senobraz-hub/release-enotespace/releases/latest).
+Latest release: [Releases](https://github.com/senobraz-hub/enotespace/releases/latest).
 
 Files:
 
@@ -18,7 +18,7 @@ Application data: `~/.config/EnoteSpace/`.
 
 ## Snap
 
-Local install:
+The package is not in the Snap Store yet, so install it locally:
 
 ```bash
 sudo snap install --dangerous EnoteSpace-Linux-<version>.snap
@@ -28,13 +28,13 @@ enotespace
 
 Application data: `~/snap/enotespace/current/`.
 
-`password-manager-service` gives access to the host keyring (optional).
+`password-manager-service` gives access to the host keyring. Optional.
 
-Do not install as `--classic`.
+Do not install with `--classic`.
 
 ### Update
 
-Do not remove the installed snap. Download the new `.snap` and install over it:
+Do not remove the installed snap. Download the new `.snap` and install over the existing one:
 
 ```bash
 sudo snap install --dangerous EnoteSpace-Linux-<version>.snap
@@ -52,7 +52,7 @@ Removing the app also deletes the database (`~/snap/enotespace/`). Copy that dir
 
 ### If you already uninstalled
 
-Install again, same as the first time:
+Install again the same way as the first time:
 
 ```bash
 sudo snap install --dangerous EnoteSpace-Linux-<version>.snap
