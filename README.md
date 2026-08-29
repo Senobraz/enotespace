@@ -1,7 +1,5 @@
 # EnoteSpace
 
-Currently built for Linux only: **AppImage** and **snap** (strict).
-
 - [Latest release](https://github.com/senobraz-hub/enotespace/releases/latest)
 - [Installation](install.md)
 - [Stack](stack.md)

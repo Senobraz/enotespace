@@ -16,9 +16,31 @@ chmod +x EnoteSpace-Linux-<version>.AppImage
 
 Application data: `~/.config/EnoteSpace/`.
 
+## Flatpak
+
+Install:
+
+```bash
+flatpak install flathub io.github.senobraz_hub.enotespace
+```
+
+Application data: `~/.var/app/io.github.senobraz_hub.enotespace/`.
+
+### Uninstall
+
+```bash
+flatpak uninstall io.github.senobraz_hub.enotespace
+```
+
+To delete the database as well:
+
+```bash
+flatpak uninstall --delete-data io.github.senobraz_hub.enotespace
+```
+
 ## Snap
 
-The package is not in the Snap Store yet, so install it locally:
+Local install:
 
 ```bash
 sudo snap install --dangerous EnoteSpace-Linux-<version>.snap
