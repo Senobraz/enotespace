@@ -46,7 +46,7 @@ same time and switch between them quickly.
 
 ### Rich Text Editor
 
-The built-in rich text editor lets you create and format your notes with ease.
+The rich text editor lets you create and format your notes with ease.
 
 ![Rich Text Editor](images/rich_editor.png)
 

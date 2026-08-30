@@ -40,6 +40,12 @@ flatpak uninstall --delete-data io.github.senobraz_hub.enotespace
 
 ## Snap
 
+Install from Snap Store:
+
+```bash
+sudo snap install enotespace
+```
+
 Local install:
 
 ```bash
