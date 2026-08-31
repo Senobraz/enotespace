@@ -1,0 +1,19 @@
+@use "sass:map";
+@use "./vars.scss" as theme;
+
+:root {
+  --hsl-white: 360 100% 100%;
+  --hsl-black: 0 0% 0%;
+}
+
+@each $theme-type in theme.$theme-types {
+  .#{$theme-type} {
+    @each $color-type-name,
+      $color-type-value in map.get(theme.$themes, $theme-type)
+    {
+      @each $color-tone-name, $color-tone-value in $color-type-value {
+        --hsl-#{$color-type-name}-#{$color-tone-name}: #{$color-tone-value};
+      }
+    }
+  }
+}

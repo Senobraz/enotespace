@@ -1,0 +1,94 @@
+html {
+  font-family: var(--font-family-base);
+  font-size: 16px;
+  font-feature-settings: 'liga' 1, 'calt' 1;
+  box-sizing: border-box;
+  background-color: var(--color-ls-base);
+  color: var(--color-text-secondary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: var(--font-family-heading);
+  color: var(--color-text-primary);
+  line-height: var(--line-height-small);
+}
+
+h1 {
+  font-size: var(--heading-size-xlarge);
+}
+
+h2 {
+  font-size: var(--heading-size-large);
+}
+
+h3 {
+  font-size: var(--heading-size-base);
+}
+
+h4 {
+  font-size: var(--heading-size-small);
+}
+
+button {
+  font-family: inherit;
+  padding: 0;
+  color: inherit;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+a {
+  color: var(--color-da-base);
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+
+  &:hover {
+    color: var(--color-da-dark);
+  }
+
+  &:active {
+    color: var(--color-da-base);
+  }
+}
+
+input:-webkit-autofill {
+  background-clip: text;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -webkit-text-fill-color: var(--color-text-secondary) !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px var(--color-bg-surface) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}

@@ -1,0 +1,47 @@
+:root {
+  // Border Radius
+
+  --border-radius-xsmall: 4px;
+  --border-radius-small: 8px;
+  --border-radius-base: 12px;
+  --border-radius-large: 14px;
+
+  // Font Size
+
+  --text-size-tiny: 10px;
+  --text-size-xsmall: 12px;
+  --text-size-small: 13px;
+  --text-size-base: 14px;
+  --text-size-large: 15px;
+  --text-size-xlarge: 16px;
+
+  --heading-size-xxsmall: 16px;
+  --heading-size-xsmall: 18px;
+  --heading-size-small: 20px;
+  --heading-size-base: 22px;
+  --heading-size-large: 24px;
+  --heading-size-xlarge: 26px;
+
+  --line-height-small: 1.3;
+  --line-height-base: 1.5;
+  --line-height-large: 1.7;
+
+  // Offset for Pagging and Margin
+
+  --offset-xsmall: 2px;
+  --offset-small: 4px;
+  --offset-base: 8px;
+  --offset-large: 12px;
+  --offset-xlarge: 16px;
+
+  --form-control-size-small: 24px;
+  --form-control-size-base: 34px;
+  --form-control-size-large: 40px;
+  --form-control-size-xlarge: 50px;
+
+  --box-shadow: 0px 8px 20px var(--color-shadow-base);
+  --box-shadow-light: 0px 0px 12px var(--color-shadow-light);
+
+  --scrollbar-width: 6px;
+  --scrollbar-height: 6px;
+}

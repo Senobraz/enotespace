@@ -1,0 +1,63 @@
+:root {
+  // ----------------------------------------------------------------------------
+  // Semantic tokens
+  // ----------------------------------------------------------------------------
+
+  // Brand
+  --color-info: hsl(var(--hsl-da-base));
+
+  // Text
+  --color-text-primary: hsl(var(--hsl-text-primary));
+  --color-text-secondary: hsl(var(--hsl-text-regular));
+  --color-text-placeholder: hsl(var(--hsl-text-placeholder));
+  --color-text-da-dark: hsl(var(--hsl-da-dark));
+
+  // Background
+  --color-bg-page: hsl(var(--hsl-bg-base));
+  --color-bg-surface: hsl(var(--hsl-bg-card));
+  --color-bg-overlay-light: hsl(var(--hsl-black) / 0.3);
+  --color-bg-overlay-strong: hsl(var(--hsl-black) / 0.5);
+
+  // Border
+  --color-border-default: hsl(var(--hsl-border-base));
+
+  // Shadow colors
+  --color-shadow-base: hsl(var(--hsl-shadow-base) / 0.12);
+  --color-shadow-light: hsl(var(--hsl-shadow-light) / 0.2);
+  --color-shadow-strong: hsl(var(--hsl-shadow-base) / 0.4);
+
+  // Icon colors
+  --color-icon-base: hsl(var(--hsl-icon-base));
+  --color-bg-icon-base-hover: hsl(var(--hsl-icon-base) / 0.12);
+
+  // ----------------------------------------------------------------------------
+  // Layout tokens
+  // ----------------------------------------------------------------------------
+
+  // UI Common
+
+  --color-white: hsl(var(--hsl-white));
+  --color-black: hsl(var(--hsl-black));
+
+  // Light Shade
+
+  --color-ls-base: hsl(var(--hsl-ls-base));
+  --color-ls-dark: hsl(var(--hsl-ls-dark));
+
+  --color-ls-sidebar: hsl(var(--hsl-ls-dark));
+  --color-ls-divider: hsl(var(--hsl-da-base) / 0.1);
+
+  // Dark Accent
+
+  --color-da-base: hsl(var(--hsl-da-base));
+  --color-da-dark: hsl(var(--hsl-da-dark));
+
+  // Dark Shade
+
+  --color-ds-base: hsl(var(--hsl-ds-base));
+}
+
+[data-theme-mode='dark'] {
+  --color-shadow-light: hsl(var(--hsl-shadow-light) / 0.3);
+  --color-shadow-strong: hsl(var(--hsl-shadow-base) / 0.6);
+}

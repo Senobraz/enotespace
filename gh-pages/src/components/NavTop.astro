@@ -1,0 +1,38 @@
+---
+import logo from "../assets/logo.svg"
+---
+
+<header class='nav-top'>
+  <div class='nav-top__inner'>
+    <a
+      class='nav-top__brand'
+      href='/'>
+      <img
+        class='nav-top__logo'
+        src={logo.src}
+        alt=''
+        width='32'
+        height='32'
+      />
+      <span class='nav-top__name'>EnoteSpace</span>
+    </a>
+    <nav
+      class='nav-top__links'
+      aria-label='Primary'>
+      <a
+        class='nav-top__link'
+        href='https://github.com/senobraz-hub/enotespace'
+        >GitHub</a
+      >
+      <a
+        class='nav-top__cta'
+        href='https://github.com/senobraz-hub/enotespace/releases/latest'>
+        Get the app
+      </a>
+    </nav>
+  </div>
+</header>
+
+<style lang='scss'>
+  @use "./navTop/styles/style.scss";
+</style>
