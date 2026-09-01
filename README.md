@@ -1,6 +1,6 @@
 # EnoteSpace
 
-- [Latest release](https://github.com/senobraz/enotespace/releases/latest)
+- [Latest release](https://github.com/Senobraz/enotespace/releases/latest)
 - [Installation](install.md)
 - [Stack](stack.md)
 
