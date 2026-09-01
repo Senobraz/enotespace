@@ -1,6 +1,6 @@
 # Installation
 
-Latest release: [Releases](https://github.com/senobraz-hub/enotespace/releases/latest).
+Latest release: [Releases](https://github.com/senobraz/enotespace/releases/latest).
 
 Files:
 

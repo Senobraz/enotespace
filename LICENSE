@@ -6,7 +6,7 @@ EnoteSpace is proprietary software. The source code is not licensed for use, mod
 
 You may download and use the official binaries published at:
 
-https://github.com/senobraz-hub/enotespace/releases
+https://github.com/senobraz/enotespace/releases
 
 The copyright holder grants Flathub permission to build, package, and redistribute EnoteSpace as a Flatpak under the
 application ID io.github.senobraz_hub.enotespace.
