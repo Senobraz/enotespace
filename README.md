@@ -1,5 +1,7 @@
 # EnoteSpace
 
+EnoteSpace is a privacy-focused desktop application for creating and editing notes.
+
 - [Latest release](https://github.com/Senobraz/enotespace/releases/latest)
 - [Installation](install.md)
 - [Stack](stack.md)
